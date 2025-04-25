@@ -3,3 +3,4 @@ sqlalchemy
 transformers
 langchain_groq
 groq
+langchain
