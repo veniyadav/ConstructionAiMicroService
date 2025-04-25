@@ -1,0 +1,507 @@
+[
+  {
+    "standard": "AS/NZS 3000:2018",
+    "section": "2.5.4.3",
+    "description": "Exposed wiring must be enclosed in conduit in areas accessible to people."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "3.1.1",
+    "description": "All exits and emergency paths must be clearly marked and unobstructed."
+  },
+  {
+    "standard": "AS/NZS 4801:2001",
+    "section": "4.4.6",
+    "description": "Employers must take action to eliminate workplace hazards immediately."
+  },
+  {
+    "standard": "AS 1680.1:2006",
+    "section": "4.2.2",
+    "description": "Lighting levels must be appropriate for the task performed."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.3",
+    "description": "Fire extinguishers must be inspected and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.1.4",
+    "description": "Concrete structures must be designed to withstand expected loads."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.3.5",
+    "description": "Steel structures must be designed for durability and stability."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.2.1",
+    "description": "Reinforcing steel must meet specified strength and ductility requirements."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.4.2",
+    "description": "Glass used in buildings must be properly glazed and secured."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.1.3",
+    "description": "Design of buildings must provide access for people with disabilities."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.2.4",
+    "description": "Plumbing systems must be designed to prevent contamination."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.3.2",
+    "description": "Fire-resistance levels of building elements must be determined."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.1.1",
+    "description": "Construction of buildings in bushfire-prone areas must comply with specific requirements."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.2.2",
+    "description": "Structural design actions must consider dead and live loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.3.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.2.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1530.3:2018",
+    "section": "6.1.2",
+    "description": "Fire hazard properties of materials must be determined."
+  },
+  {
+    "standard": "AS 3959:2009",
+    "section": "5.5.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "4.2.1",
+    "description": "Emergency plans must be developed and implemented."
+  },
+  {
+    "standard": "AS/NZS 4801:2001",
+    "section": "4.4.5",
+    "description": "Workplace hazards must be identified and assessed."
+  },
+  {
+    "standard": "AS 1680.2.1:2008",
+    "section": "3.3.1",
+    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.4",
+    "description": "Fire protection systems must be tested and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.2.1",
+    "description": "Concrete mix design must comply with specified requirements."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.4.3",
+    "description": "Steel structures must be fabricated and erected according to specified standards."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.3.2",
+    "description": "Reinforcing steel must be properly handled and stored."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.5.1",
+    "description": "Glass must be properly installed to ensure safety."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.2.4",
+    "description": "Doorways and passages must be designed for accessibility."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.3.2",
+    "description": "Plumbing systems must be installed to prevent backflow."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.4.1",
+    "description": "Fire-resistance levels must be maintained during construction."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.2.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.3.2",
+    "description": "Structural design actions must consider imposed loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.4.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.3.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 4801:2001",
+    "section": "4.4.5",
+    "description": "Workplace hazards must be identified and assessed."
+  },
+  {
+    "standard": "AS 1680.2.1:2008",
+    "section": "3.3.1",
+    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.4",
+    "description": "Fire protection systems must be tested and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.2.1",
+    "description": "Concrete mix design must comply with specified requirements."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.4.3",
+    "description": "Steel structures must be fabricated and erected according to specified standards."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.3.2",
+    "description": "Reinforcing steel must be properly handled and stored."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.5.1",
+    "description": "Glass must be properly installed to ensure safety."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.2.4",
+    "description": "Doorways and passages must be designed for accessibility."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.3.2",
+    "description": "Plumbing systems must be installed to prevent backflow."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.4.1",
+    "description": "Fire-resistance levels must be maintained during construction."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.2.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.3.2",
+    "description": "Structural design actions must consider imposed loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.4.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.3.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1530.3:2018",
+    "section": "6.2.1",
+    "description": "Fire hazard properties of materials must be determined."
+  },
+  {
+    "standard": "AS 3959:2009",
+    "section": "5.5.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "4.2.1",
+    "description": "Emergency plans must be developed and implemented."
+  },
+  {
+    "standard": "AS/NZS 4801:2001",
+    "section": "4.4.5",
+    "description": "Workplace hazards must be identified and assessed."
+  },
+  {
+    "standard": "AS 1680.2.1:2008",
+    "section": "3.3.1",
+    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.4",
+    "description": "Fire protection systems must be tested and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.2.1",
+    "description": "Concrete mix design must comply with specified requirements."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.4.3",
+    "description": "Steel structures must be fabricated and erected according to specified standards."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.3.2",
+    "description": "Reinforcing steel must be properly handled and stored."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.5.1",
+    "description": "Glass must be properly installed to ensure safety."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.2.4",
+    "description": "Doorways and passages must be designed for accessibility."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.3.2",
+    "description": "Plumbing systems must be installed to prevent backflow."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.4.1",
+    "description": "Fire-resistance levels must be maintained during construction."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.2.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.3.2",
+    "description": "Structural design actions must consider imposed loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.4.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.3.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1530.3:2018",
+    "section": "6.2.1",
+    "description": "Fire hazard properties of materials must be determined."
+  },
+  {
+    "standard": "AS 3959:2009",
+    "section": "5.5.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "4.2.1",
+    "description": "Emergency plans must be developed and implemented."
+  },
+  {
+    "standard": "AS 4801:2001",
+    "section": "4.4.5",
+    "description": "Workplace hazards must be identified and assessed."
+  },
+  {
+    "standard": "AS 1680.2.1:2008",
+    "section": "3.3.1",
+    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.4",
+    "description": "Fire protection systems must be tested and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.2.1",
+    "description": "Concrete mix design must comply with specified requirements."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.4.3",
+    "description": "Steel structures must be fabricated and erected according to specified standards."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.3.2",
+    "description": "Reinforcing steel must be properly handled and stored."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.5.1",
+    "description": "Glass must be properly installed to ensure safety."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.2.4",
+    "description": "Doorways and passages must be designed for accessibility."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.3.2",
+    "description": "Plumbing systems must be installed to prevent backflow."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.4.1",
+    "description": "Fire-resistance levels must be maintained during construction."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.2.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.3.2",
+    "description": "Structural design actions must consider imposed loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.4.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.3.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1530.3:2018",
+    "section": "6.2.1",
+    "description": "Fire hazard properties of materials must be determined."
+  },
+  {
+    "standard": "AS 3959:2009",
+    "section": "5.5.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "4.2.1",
+    "description": "Emergency plans must be developed and implemented."
+  },
+  {
+    "standard": "AS/NZS 4801:2001",
+    "section": "4.4.5",
+    "description": "Workplace hazards must be identified and assessed."
+  },
+  {
+    "standard": "AS 1680.2.1:2008",
+    "section": "3.3.1",
+    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+  },
+  {
+    "standard": "AS 1851-2012",
+    "section": "5.2.4",
+    "description": "Fire protection systems must be tested and maintained regularly."
+  },
+  {
+    "standard": "AS 3600:2018",
+    "section": "3.2.1",
+    "description": "Concrete mix design must comply with specified requirements."
+  },
+  {
+    "standard": "AS 4100:2020",
+    "section": "2.4.3",
+    "description": "Steel structures must be fabricated and erected according to specified standards."
+  },
+  {
+    "standard": "AS 4671:2001",
+    "section": "4.3.2",
+    "description": "Reinforcing steel must be properly handled and stored."
+  },
+  {
+    "standard": "AS 1288:2006",
+    "section": "3.5.1",
+    "description": "Glass must be properly installed to ensure safety."
+  },
+  {
+    "standard": "AS 1428.1:2009",
+    "section": "4.2.4",
+    "description": "Doorways and passages must be designed for accessibility."
+  },
+  {
+    "standard": "AS/NZS 3500.1:2018",
+    "section": "3.3.2",
+    "description": "Plumbing systems must be installed to prevent backflow."
+  },
+  {
+    "standard": "AS 1530.4:2014",
+    "section": "5.4.1",
+    "description": "Fire-resistance levels must be maintained during construction."
+  },
+  {
+    "standard": "AS 3959:2018",
+    "section": "4.2.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 1170.1:2002",
+    "section": "3.3.2",
+    "description": "Structural design actions must consider imposed loads."
+  },
+  {
+    "standard": "AS 1170.2:2011",
+    "section": "4.4.1",
+    "description": "Wind actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1170.4:2007",
+    "section": "5.3.1",
+    "description": "Earthquake actions must be considered in structural design."
+  },
+  {
+    "standard": "AS 1530.3:2018",
+    "section": "6.2.1",
+    "description": "Fire hazard properties of materials must be determined."
+  },
+  {
+    "standard": "AS 3959:2009",
+    "section": "5.5.1",
+    "description": "Building elements must be constructed to resist bushfire attack."
+  },
+  {
+    "standard": "AS 3745-2010",
+    "section": "4.2.1",
+    "description": "Emergency plans must be developed and implemented."
+  }
+]
