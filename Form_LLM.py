@@ -1,86 +1,18 @@
-from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate,PromptTemplate
 from groq import Groq
-import os
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
 import re
-import base64
+from utiles.globalllm import GroqLLM
 import json 
-import requests
 from form_schemas import form_schemas , compliance_json_template # your schema map
+from utiles.utils import load_retriever_from_faiss ,fetch_rfi_data_from_api,format_rfi_history,encode_image,load_retriever_from_faiss_projects #getProject,formatProjects
 API_KEY = "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"
 client = Groq(api_key=API_KEY)
 
+groq_llm = GroqLLM(model="llama-3.1-8b-instant", api_key=API_KEY,temperature=0.4)
+
 # FORM Auto suggest part #
-
-import requests
-
-def get_previous_forms(url):
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # Will raise an HTTPError for bad responses
-
-        # Try to parse JSON
-        data = response.json()
-        print("Fetched data:", data)
-        return data
-
-    except requests.exceptions.HTTPError as http_err:
-        print(f"[HTTP ERROR] {http_err} - Status Code: {response.status_code}")
-        print("Response text:", response.text[:500])  # Avoid printing a giant HTML dump
-
-    except requests.exceptions.JSONDecodeError as json_err:
-        print(f"[JSON ERROR] Failed to decode JSON: {json_err}")
-        print("Response text:", response.text[:500])
-
-    except Exception as err:
-        print(f"[ERROR] Unexpected error: {err}")
-
-    return None  # Always return something, even on failure
-
-
-# def generate_autofill(form_type, previous_forms):
-    # Combine previous data into a prompt
-    schema = form_schemas.get(form_type)
-    if not schema:
-        return f"Unsupported form type: {form_type}"
-    
-    escaped_schema = schema.replace("{", "{{").replace("}", "}}")
-    
-
-    # system_message = f"You are a helpful assistant that fills out {form_type} forms based on user history " # below.\n\n{history}
-    
-
-    # System prompt
-    system_message = f"""
-        You are a helpful assistant that fills out SWMS forms in JSON format.
-        Based on previous form data and the current request, suggest an auto-filled form {form_type} forms based on user history.
-
-        ONLY return a JSON object that matches this schema:
-        ```json
-        {escaped_schema}
-        """
-    
-    # Use LangChain's ChatPromptTemplate
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", system_message),
-        ("human", f"Based on the following past forms:\n{previous_forms}\n\nGenerate a new autofilled form.")
-    ])
-
-    # messages.append(("human", data["human_message"]))
-
-    llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        api_key=API_KEY,
-        temperature=0,
-        max_tokens=None,
-        timeout=None,
-        max_retries=2,
-    )
-    
-    chain = prompt | llm
-    response = chain.invoke({})
-    return response.content
-
 def generate_autofill(form_type, previous_forms):
     # Ensure we're accessing the 'data' field correctly, which is a dictionary containing lists
     data = previous_forms.get('data', {})
@@ -126,23 +58,14 @@ def generate_autofill(form_type, previous_forms):
         ("human", f"Based on the following past forms:\n{history}\n\nGenerate and suggest new autofilled form.")
     ])
 
-    # Initialize the LLM (ChatGroq in your case)
-    llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        api_key=API_KEY,
-        temperature=0,
-        max_tokens=None,
-        timeout=None,
-        max_retries=2,
-    )
 
-    # Chain the prompt with the LLM
-    chain = prompt | llm
+
+    chain = prompt | groq_llm
     response = chain.invoke({})  # Invoke the chain with no additional input
 
-  # 🔍 Clean and parse the JSON response
+  # Clean and parse the JSON response
 
-    match = re.search(r"```json\n(.*)\n```", response.content, re.DOTALL)
+    match = re.search(r"```json\n(.*)\n```", response, re.DOTALL)
     if match:
         json_str = match.group(1)
         try:
@@ -150,32 +73,23 @@ def generate_autofill(form_type, previous_forms):
         except json.JSONDecodeError:
             return {"error": "Failed to parse AI response as JSON", "raw_output": json_str}
     else:
-        return {"error": "No valid JSON block found", "raw_output": response.content}
-
-#for  AI-Generated Compliance & Rectification Reports – AI cross-checks Australian Standerds and provides fixes #
-
-
-import json
-
-def load_standards_summary(file_path="australian_standards.json"):
-    with open(file_path, "r") as f:
-        standards = json.load(f)
-
-    formatted = ""
-    for s in standards:
-        formatted += f"- {s['standard']} – {s['section']}: {s['description']}\n"
+        return {"error": "No valid JSON block found", "raw_output": response}
     
-    return formatted.strip()
 
+# Compliance report part
 
 def generate_compliance_report(site_report_text):
+    retriever = load_retriever_from_faiss(jsonpath="australian_standards.json", index_path="faiss_index")
 
-    standards_summary = load_standards_summary()
+    # Retrieve relevant standard documents
+    retrieved_docs = retriever.get_relevant_documents(site_report_text)
+    standards_summary = "\n".join([doc.page_content for doc in retrieved_docs])
 
-    # Escape curly braces
-    escaped_format = compliance_json_template.replace("{", "{{").replace("}", "}}")
+    # Escape curly braces in the JSON schema
+    escaped_format = compliance_json_template.replace("{", "{{").replace("}", "}}").strip()
 
-    system_prompt = f"""
+        # Define a safe prompt template with a single string input
+    template = """
     You are an Australian safety compliance expert.
 
     Your task is to analyze a site report and determine if there are any compliance issues with reference to the following Australian Standards:
@@ -186,67 +100,41 @@ def generate_compliance_report(site_report_text):
     ```json
     {escaped_format}"""
 
-    prompt = ChatPromptTemplate.from_messages([
-    ("system", system_prompt.strip()),
-    ("human", f"Site Report: {site_report_text}")
-    ])
-
-    llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        api_key=API_KEY,
-        temperature=0,
-        max_tokens=None,
-        timeout=None,
-        max_retries=2,
+    prompt = PromptTemplate(
+        input_variables=["standards_summary", "site_report_text", "escaped_format"],
+        template=template,
     )
 
-    chain = prompt | llm
-    response = chain.invoke({})
-    match = re.search(r"```json\n(.*)\n```", response.content, re.DOTALL)
+    # Run the LLMChain
+    chain = LLMChain(llm=groq_llm, prompt=prompt)
+    response = chain.run({
+        "standards_summary": standards_summary,
+        "site_report_text": site_report_text,
+        "escaped_format": escaped_format,
+    })
+
+    # Extract JSON from LLM output
+    match = re.search(r"```json\n(.*)\n```", response, re.DOTALL)
     if match:
         json_str = match.group(1)
         try:
             return json.loads(json_str)
         except json.JSONDecodeError:
-            return {"error": "Failed to parse AI response as JSON", "raw_output": json_str}
+            return {
+                "error": "Failed to parse AI response as JSON",
+                "raw_output": json_str
+            }
     else:
-        return {"error": "No valid JSON block found", "raw_output": response.content}
+        return {
+            "error": "No valid JSON block found",
+            "raw_output": response
+        }
 
 ##RFI ###
 
-def fetch_rfi_data_from_api(api_url):
-    try:
-        response = requests.get(api_url)
-        response.raise_for_status()  # Raise error for bad status
-        print(response.json())
-        return response.json()  
-    
-    # Assumes the API returns JSON
-    except requests.RequestException as e:
-        print(f"Error fetching RFI data: {e}")
-        return []
-
-def format_rfi_history(rfi_entries):
-    formatted = ""
-    for i, rfi in enumerate(rfi_entries, 1):
-        if not isinstance(rfi, dict):
-            print(f"Skipping invalid RFI entry at index {i}: {rfi}")
-            continue
-
-        question = rfi.get('question') or rfi.get('rfi_question')
-        answer = rfi.get('answer') or rfi.get('rfi_answer')
-        formatted += f"RFI {i}:\nQ: {question}\nA: {answer}\n\n"
-    return formatted.strip()
-
-
 def RFI_Suggestion(user_rfi_question):  #api url when extract data 
-    # api="https://hrb5wx2v-8000.inc1.devtunnels.ms/api/data"
     api="https://hrb5wx2v-8000.inc1.devtunnels.ms/api/rfi"
     rfi_entries = fetch_rfi_data_from_api(api_url=api)
-
-    # Debugging: Print the fetched RFI entries
-    print("Fetched RFI Entries:", rfi_entries)
-
     history = format_rfi_history(rfi_entries)
 
     system_prompt = f"""
@@ -264,15 +152,11 @@ Return the answer ONLY as plain text.
         ("human", user_rfi_question)
     ])
 
-    llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        api_key=API_KEY,
-        temperature=0.3,
-    )
 
-    chain = prompt | llm
+    # chain = prompt | llm
+    chain = prompt | groq_llm
     response = chain.invoke({})
-    return response.content
+    return response
 
 
 
@@ -292,76 +176,68 @@ def speechtotext(filename):
         
         )
         data=transcription.text
-            # To print only the transcription text, you'd use print(transcription.text) (here we're printing the entire transcription object to access timestamps)
-    return data
+        #for summery
 
-#GET PROJESTS INSITES #
-def getProject(api_url):
-    try:
-        response = requests.get(api_url)
-        response.raise_for_status()  # Raise error for bad status
-        print(response.json)
-        return response.json()  # Assumes the API returns JSON
-    except requests.RequestException as e:
-        print(f"Error fetching PROJECTdata: {e}")
-        return []
+        system_message = f"""summarize the following text in a concise manner, highlighting key points and important details."""
 
-def formatProjects(rfi_entries):
-    formatted = ""
-    for i, rfi in enumerate(rfi_entries, 1):
-        question = rfi.get('question') or rfi.get('rfi_question')
-        answer = rfi.get('answer') or rfi.get('rfi_answer')
-        formatted += f"RFI {i}:\nQ: {question}\nA: {answer}\n\n"
-    return formatted.strip()
-
-def generate_project_insights(user_query,user_id):
-    """
-    Uses AI to generate insights or alerts from construction project data.
-    project_data: List of dicts (e.g., rows from a spreadsheet)
-    """
-
-    api=f"https://xt2cpwt7-8000.inc1.devtunnels.ms/api/projects/by-user/{user_id}"
-    
-    # Convert project data to readable format
-    prdata=getProject(api_url=api)
-    project_data=formatProjects(prdata)
-
-    context = "\n".join([f"- {json.dumps(row)}" for row in project_data])
-
-    system_prompt = f"""
-You are a smart AI assistant for a construction project.
-
-Your job is to analyze project data and answer user queries. 
-You may highlight risks, delays, compliance issues, or general updates.
-
-Project Context:
-{context}
-
-Always provide clear and concise construction insights in bullet points or paragraphs.
-"""
-
+    # Use LangChain's ChatPromptTemplate
     prompt = ChatPromptTemplate.from_messages([
-        ("system", system_prompt.strip()),
-        ("human", user_query)
+        ("system", system_message.strip()),
+        ("human", f"Summarize the following text:\n{data}")
     ])
 
-    llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        api_key=API_KEY,
-        temperature=0.3,
+
+
+    chain = prompt | groq_llm
+    response = chain.invoke({})  # Invoke the chain with no additional input
+    return data ,response #transcription.text, transcription.segments[0].words[0].start_time, transcription.segments[0].words[-1].end_time, transcription.segments[0].words[0].word, transcription.segments[0].words[-1].word
+
+#GET PROJESTS INSITES  ChatBOt#
+def generate_project_insights(user_query, user_id):
+    retriever = load_retriever_from_faiss_projects(jsonpath="Database.json", index_path="faiss_index2")
+
+    # Retrieve relevant documents based on the full document similarity (not specific keys)
+    retrieved_docs = retriever.get_relevant_documents(user_query)
+
+    # Construct a summary of the retrieved documents
+    standards_summary = "\n".join([doc.page_content for doc in retrieved_docs]) if retrieved_docs else ""
+
+    # Define a single template with rules
+    template = """
+    You are an AI assistant for a construction project. Your task is to provide the user with the **exact information** they request, based on the data available. If the information is found in the database, return that directly. If not, **never say no**, and always search the web to provide the most relevant and accurate answer.
+
+    Here are the rules:
+    1. If relevant information is found in the database, provide the answer directly.
+    2. If no relevant information is found in the database, search the web and provide a direct, concise, and accurate answer.
+    3. Do **not** provide any greetings, extra context, or introductory information. Just answer the question directly.
+    4. **Never say no**. If data is not available in the database, proceed to search the internet for the most relevant information and provide it.
+
+    The user's question is: "{user_query}"
+
+    Here is the relevant data from the database (if available):
+    {standards_summary}
+
+    Please answer the user's question directly and concisely. If relevant information is not available in the database, search the internet and provide the answer.
+    """
+
+    # Create the prompt template
+    prompt = PromptTemplate(
+        input_variables=["standards_summary", "user_query"],
+        template=template,
     )
 
-    chain = prompt | llm
-    response = chain.invoke({})
-    return response.content
+    # Run the LLMChain
+    chain = LLMChain(llm=groq_llm, prompt=prompt)
 
+    # Generate the response using the retrieved documents and user query
+    response = chain.run({
+        "standards_summary": standards_summary,
+        "user_query": user_query,
+    })
 
-#image classification of constructio
-def encode_image(image_path):
-  if not os.path.exists(image_path):
-    raise FileNotFoundError(f"The file '{image_path}' does not exist.")
-  with open(image_path, "rb") as image_file:
-    return base64.b64encode(image_file.read()).decode('utf-8')
+    return response
+
+#image classification of construction site     
 
 # Path to your image
 def ImageProcessing(imagepath):
@@ -402,39 +278,3 @@ def ImageProcessing(imagepath):
         model="meta-llama/llama-4-scout-17b-16e-instruct",
     )
     return chat_completion.choices[0].message.content
-
-
-
-# if __name__ == "__main__":
-#     form_type = "ITP"
-#     previous_forms = [
-#         {"data": "Hazard: Working at heights, Control: Safety harness"},
-#         {"data": "Hazard: Electrical, Control: Lockout-tagout"},
-#     ]
-#     # user_input = "Please generate a new SWMS form for a bridge project with common site hazards."
-
-#     suggested_form = generate_autofill(form_type, previous_forms)
-#     # print(suggested_form)
-
-
-#     site_report = "Exposed live wiring hanging in a corridor where workers walk frequently, no signage or protection."
-#     result = generate_compliance_report(site_report)
-#     # print(result)
-
-
-#     user_rfi = "What fire rating applies to the corridor walls?"
-#     response = RFI_Suggestion(user_rfi)
-#     # print("Suggested RFI Response:", response)
-
-#     filename="harvard.wav"
-#     text=speechtotext(filename=filename)
-#     # print(text)
-
-#     user_query = "What compliance risks should I be aware of this week?"
-#     insights = generate_project_insights(user_query)
-#     # print(insights)
-
-    
-#     image_path = r"image\istockphoto-1306206468-612x612.jpg"
-#     text=ImageProcessing(imagepath=image_path)
-#     # print(text)

@@ -1,507 +1,1407 @@
 [
   {
-    "standard": "AS/NZS 3000:2018",
-    "section": "2.5.4.3",
-    "description": "Exposed wiring must be enclosed in conduit in areas accessible to people."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "3.1.1",
-    "description": "All exits and emergency paths must be clearly marked and unobstructed."
+    "standard": "NCC 2022",
+    "section": "Throughout",
+    "description": "An“IntroductiontothisPart”hasbeenaddedtointroduce the intent and purpose of every Part of the NCC."
   },
   {
-    "standard": "AS/NZS 4801:2001",
-    "section": "4.4.6",
-    "description": "Employers must take action to eliminate workplace hazards immediately."
+    "standard": "NCC 2022",
+    "section": "Throughout",
+    "description": "TheObjectivesandFunctionalStatementshavebeen relocated from the Guide to Volume One into NCC Volume One."
   },
   {
-    "standard": "AS 1680.1:2006",
-    "section": "4.2.2",
-    "description": "Lighting levels must be appropriate for the task performed."
+    "standard": "NCC 2022",
+    "section": "Throughout",
+    "description": "Anumberofprovisionshavebeenamended,restructured, deleted and relocated as part of the initiative to provide a consistent NCC structure and improve NCC usability."
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.3",
-    "description": "Fire extinguishers must be inspected and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "A1G1",
+    "description": "AnewclauseaddedtospecifyscopeofNCCVolume One."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.1.4",
-    "description": "Concrete structures must be designed to withstand expected loads."
+    "standard": "NCC 2022",
+    "section": "A1G2",
+    "description": "AnewclauseaddedtospecifyscopeofNCCVolume Two."
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.3.5",
-    "description": "Steel structures must be designed for durability and stability."
+    "standard": "NCC 2022",
+    "section": "A1G3",
+    "description": "AnewclauseaddedtospecifyscopeofNCCVolume Three."
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.2.1",
-    "description": "Reinforcing steel must meet specified strength and ductility requirements."
+    "standard": "NCC 2022",
+    "section": "A2G2(4)(b)",
+    "description": "Amendedtoremoveunnecessaryduplication."
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.4.2",
-    "description": "Glass used in buildings must be properly glazed and secured."
+    "standard": "NCC 2022",
+    "section": "A5G3",
+    "description": "A Note has been included to outline transitional arrangementsregardingnewnumberingsystemand documentary evidence."
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.1.3",
-    "description": "Design of buildings must provide access for people with disabilities."
+    "standard": "NCC 2022",
+    "section": "A5G4",
+    "description": "Anewclauseaddedtolimitleadcontentincopperalloy plumbing products in contact with drinking water."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.2.4",
-    "description": "Plumbing systems must be designed to prevent contamination."
+    "standard": "NCC 2022",
+    "section": "A5G9",
+    "description": "Anew clause added to require a NatHERS certificate be issuedforthehouseenergyratingsoftwareoutputwhere house energy rating software is required."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.3.2",
-    "description": "Fire-resistance levels of building elements must be determined."
+    "standard": "NCC 2022",
+    "section": "A6G1",
+    "description": "Thelimitationstatementhasbeenamendedtoincludea Class 9b early childhood centre."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.1.1",
-    "description": "Construction of buildings in bushfire-prone areas must comply with specific requirements."
+    "standard": "NCC 2022",
+    "section": "Specification 1",
+    "description": "Schedule5inNCC2019Amendment1hasbeen relocated into new Specification 1 and 2."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.2.2",
-    "description": "Structural design actions must consider dead and live loads."
+    "standard": "NCC 2022",
+    "section": "Specification 2",
+    "description": "Schedule5inNCC2019Amendment1hasbeen relocated into new Specification 1 and 2."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.3.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "Specification 3",
+    "description": "Schedule6inNCC2019Amendment1hasbeen relocated into new Specification 3."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.2.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 1530.3:2018",
-    "section": "6.1.2",
-    "description": "Fire hazard properties of materials must be determined."
+    "standard": "NCC 2022",
+    "section": "B1P1(2)(a)",
+    "description": "A new requirement for a Class 7b buildings to have the abilitytosupporttheadditionofsolarphotovoltaicpanels. An exemption is also provided to certain Class 7b buildings."
   },
   {
-    "standard": "AS 3959:2009",
-    "section": "5.5.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "B1D3(a)(iv)",
+    "description": "A new requirement for a Class 7b buildings to have the abilitytosupporttheadditionofsolarphotovoltaicpanels. An exemption is also provided to certain Class 7b buildings."
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "4.2.1",
-    "description": "Emergency plans must be developed and implemented."
+    "standard": "NCC 2022",
+    "section": "B1D3(c)",
+    "description": "AmendedtoclarifyallpartsofAS1170.4areapplicable."
   },
   {
-    "standard": "AS/NZS 4801:2001",
-    "section": "4.4.5",
-    "description": "Workplace hazards must be identified and assessed."
+    "standard": "NCC 2022",
+    "section": "C1V4",
+    "description": "AmendedasaconsequenceofrestructuringSchedule7 of NCC 2019 Volume One Amendment 1 into the referenced document, ABCB Fire Safety Verification Method standard."
   },
   {
-    "standard": "AS 1680.2.1:2008",
-    "section": "3.3.1",
-    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+    "standard": "NCC 2022",
+    "section": "C2D10(4)",
+    "description": "AmendedtoprovideadditionalconcessionstoC2D10(1) and (2)."
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.4",
-    "description": "Fire protection systems must be tested and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "C2D10(5)",
+    "description": "Anewsub-clauseaddedtospecifynon-combustible materials."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.2.1",
-    "description": "Concrete mix design must comply with specified requirements."
+    "standard": "NCC 2022",
+    "section": "C2D10(6)",
+    "description": "Amended to provide cross-reference for fixing requirementsofexternallylocatedbondedlaminated materials."
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.4.3",
-    "description": "Steel structures must be fabricated and erected according to specified standards."
+    "standard": "NCC 2022",
+    "section": "C2D14",
+    "description": "Amendedforclarityandtoprovideadditionalancillary elementspermittedonanexternalwallrequiredtobe non-combustible."
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.3.2",
-    "description": "Reinforcing steel must be properly handled and stored."
+    "standard": "NCC 2022",
+    "section": "C2D15",
+    "description": "Anewclauseaddedtospecifyfixingrequirementsfor externallylocatedbondedlaminatedcladdingpanels."
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.5.1",
-    "description": "Glass must be properly installed to ensure safety."
+    "standard": "NCC 2022",
+    "section": "C3D3",
+    "description": "Amendedtomakereferencetonewdefinedterm ‘Volume’."
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.2.4",
-    "description": "Doorways and passages must be designed for accessibility."
+    "standard": "NCC 2022",
+    "section": "C3D4",
+    "description": "Amendedtomakereferencetonewdefinedterm ‘Volume’."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.3.2",
-    "description": "Plumbing systems must be installed to prevent backflow."
+    "standard": "NCC 2022",
+    "section": "C3D6",
+    "description": "A new sub-clause (2) has been inserted to provide compartmentation and separation requirements to Class 9b early childhood centres. As a consequence, the heading has also been amended. An exemption statementhasalsobeenincludedtoprovideexemptionto certain Class 9b early childhood centres."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.4.1",
-    "description": "Fire-resistance levels must be maintained during construction."
+    "standard": "NCC 2022",
+    "section": "C4D10",
+    "description": "Amendedtoprovideconcessionfortestdrainpipesused for fire services."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.2.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "C4D16",
+    "description": "Amended to permit use of reports where the tested systemdiffersfromthesubjectsysteminaccordancewith AS 4072.1.Also, a new sub-clause has been inserted to clarify that tests must be reported in accordance with Specifications 1 and 2."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.3.2",
-    "description": "Structural design actions must consider imposed loads."
+    "standard": "NCC 2022",
+    "section": "S5C20(1)",
+    "description": "Sub-clause(c)hasbeeninsertedtopermittheuseof timber framing for roof trusses and floor frames."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.4.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "S5C23(1)",
+    "description": "Sub-clause(c)hasbeeninsertedtopermittheuseof timber framing for roof trusses and floor frames."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.3.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "D2D3",
+    "description": "Amended to provide concession to parts of a storey of certainbuildingstorequire1exitinlieuofnotlessthan2 provided there is direct egress to a road or open space and satisfies D2D5 provision for 1 exit."
   },
   {
-    "standard": "AS 4801:2001",
-    "section": "4.4.5",
-    "description": "Workplace hazards must be identified and assessed."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 1680.2.1:2008",
-    "section": "3.3.1",
-    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+    "standard": "NCC 2022",
+    "section": "D2D3(4)(iv)",
+    "description": "Amended to require each part of storey or fire compartmentusedasaClass9bearlychildhoodcentre be provided with not less than 2 exits."
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.4",
-    "description": "Fire protection systems must be tested and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "D2D4(2)",
+    "description": "AmendedtorequirestairwaysorrampsservingClass9b early childhood centres as a required exit to be fire- isolated. An exemption has been included for certain Class 9b early childhood centres."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.2.1",
-    "description": "Concrete mix design must comply with specified requirements."
+    "standard": "NCC 2022",
+    "section": "D2D8",
+    "description": "Amendedtoprovideexemptiontoladdersthatarein accordance with D2D21, D3D23 or I3D3."
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.4.3",
-    "description": "Steel structures must be fabricated and erected according to specified standards."
+    "standard": "NCC 2022",
+    "section": "D2D16(6)",
+    "description": "Amended and includes a new sub-clause to specify the clearareatohorizontalexitstoClass9bearlychildhood centres must accommodate all occupants."
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.3.2",
-    "description": "Reinforcing steel must be properly handled and stored."
+    "standard": "NCC 2022",
+    "section": "D2D16(8)",
+    "description": "Anewsub-clausehasbeeninsertedtorequirenotless than2horizontalexitstofirecompartmentsrequiredby C3D6(2)."
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.5.1",
-    "description": "Glass must be properly installed to ensure safety."
+    "standard": "NCC 2022",
+    "section": "D2D23",
+    "description": "Amended to include new provisions for primary schools. Referencestoearlychildhoodcentreshavebeendeleted as a consequence to new and amended Deemed-to- Satisfy Provisions and limitation statement located in A6G1, C3D6, D2D3, D2D4, D2D16, D3D19, D3D22,"
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.2.4",
-    "description": "Doorways and passages must be designed for accessibility."
+    "standard": "NCC 2022",
+    "section": "D3D16(b)",
+    "description": "Amendedtoprovideexemptiononlytoresidentuseareas in a Class 9c building."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.3.2",
-    "description": "Plumbing systems must be installed to prevent backflow."
+    "standard": "NCC 2022",
+    "section": "D3D19(4)",
+    "description": "AmendedtospecifyrequirementsofD3D19(2)and(3) cannot be applied to fire-isolated stairways or ramps serving Class 9b early childhood centres."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.4.1",
-    "description": "Fire-resistance levels must be maintained during construction."
+    "standard": "NCC 2022",
+    "section": "D3D19(6)and(7)",
+    "description": "New sub-clauses have been inserted to provide a maximumopeningbetweenbarrierandverticalfaceofa landing, balcony, deck, stairway or the like."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.2.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "D3D22(1)(c)",
+    "description": "AmendedtoincludeanewhandrailrequirementforClass 9b early childhood centres."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.3.2",
-    "description": "Structural design actions must consider imposed loads."
+    "standard": "NCC 2022",
+    "section": "D3D27",
+    "description": "Amended and includes provision for doors of a fire- isolatedexittonotbelockedfromtheinsideinaClass9b early childhood centre."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.4.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "E1D2",
+    "description": "Concessions, included in previous editions, regarding protectionofboosterassemblieshavebeenremovedon account of these now being included in AS 2419.1."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.3.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "E1D8",
+    "description": "Amendedtomakereferencetonewdefinedterm ‘Volume’."
   },
   {
-    "standard": "AS 1530.3:2018",
-    "section": "6.2.1",
-    "description": "Fire hazard properties of materials must be determined."
+    "standard": "NCC 2022",
+    "section": "E1D11",
+    "description": "Amended to require sprinkler protection for buildings containing a Class 9b early childhood centre. An exemptionhasbeenincludedforcertainClass9bearly childhood centres."
   },
   {
-    "standard": "AS 3959:2009",
-    "section": "5.5.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "E1D13",
+    "description": "Amendedtomakereferencetonewdefinedterm ‘Volume’."
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "4.2.1",
-    "description": "Emergency plans must be developed and implemented."
+    "standard": "NCC 2022",
+    "section": "E2D10",
+    "description": "Amendedtomakereferencetonewdefinedterm ‘Volume’."
   },
   {
-    "standard": "AS/NZS 4801:2001",
-    "section": "4.4.5",
-    "description": "Workplace hazards must be identified and assessed."
+    "standard": "NCC 2022",
+    "section": "E2D20",
+    "description": "Anew sub-clause has been inserted to require automatic smoke detection and alarm system to a building containingClass9bearlychildhoodcentre.Anexemption has been included for certain Class 9b early childhood centres."
   },
   {
-    "standard": "AS 1680.2.1:2008",
-    "section": "3.3.1",
-    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.4",
-    "description": "Fire protection systems must be tested and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "S17C2(c)",
+    "description": "Amended to specify that a Class 2 or 3 building with a Class9bearlychildhoodcentrecannotadoptasprinkler system in accordance with Specification 18."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.2.1",
-    "description": "Concrete mix design must comply with specified requirements."
+    "standard": "NCC 2022",
+    "section": "S17C14",
+    "description": "Anewclausehasbeeninsertedtorequirequickresponse sprinklers to Class 9b early childhood centres required to have an automatic fire sprinkler system. An exemption has been provided to certain Class 9b early childhood centres."
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.4.3",
-    "description": "Steel structures must be fabricated and erected according to specified standards."
+    "standard": "NCC 2022",
+    "section": "Part F1",
+    "description": "Part F1 has been re-named as a consequence of restructuring, includes new external waterproofing Deemed-to-SatisfyProvisions,andgroupprovisions relating to rainwater management and rising damp."
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.3.2",
-    "description": "Reinforcing steel must be properly handled and stored."
+    "standard": "NCC 2022",
+    "section": "F1P2",
+    "description": "Amendedtoreflectcontemporaryterminologyofannual exceedance probability in lieu of average recurrence interval."
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.5.1",
-    "description": "Glass must be properly installed to ensure safety."
+    "standard": "NCC 2022",
+    "section": "F1P3",
+    "description": "Amendedtoreflectcontemporaryterminologyofannual exceedance probability in lieu of average recurrence interval."
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.2.4",
-    "description": "Doorways and passages must be designed for accessibility."
+    "standard": "NCC 2022",
+    "section": "F1D2",
+    "description": "AnewclauseaddedtospecifyapplicationofPartF1."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.3.2",
-    "description": "Plumbing systems must be installed to prevent backflow."
+    "standard": "NCC 2022",
+    "section": "F1D3",
+    "description": "Amendedtoclarifydesignandconstructionofstormwater drainage."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.4.1",
-    "description": "Fire-resistance levels must be maintained during construction."
+    "standard": "NCC 2022",
+    "section": "F1D4",
+    "description": "Anew clause has been inserted to specify requirements forexposedjointsincorporatedinaroof,balcony,podium or similar horizontal part of building."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.2.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "F1D5",
+    "description": "Amendedtoclarifylocationsatwhichexternal waterproofing membranes are required."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.3.2",
-    "description": "Structural design actions must consider imposed loads."
+    "standard": "NCC 2022",
+    "section": "Part F2",
+    "description": "A new Part has been inserted as a consequence of restructuring Part F1 and contains group provisions for wetareasandoverflowprotectionpreviouslycontainedin NCC 2019Amdt 1 Part F1.The remaining Parts of Section F have been renumbered accordingly."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.4.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "F2O1",
+    "description": "AnewObjectivehasbeenincludedforwet areas."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.3.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "F2F1",
+    "description": "AnewFunctionalStatementhasbeenincludedforwet areas."
   },
   {
-    "standard": "AS 1530.3:2018",
-    "section": "6.2.1",
-    "description": "Fire hazard properties of materials must be determined."
+    "standard": "NCC 2022",
+    "section": "F2D4",
+    "description": "Amendedtoincludenewrequirementforafloortofallto waste where a floor waste is installed."
   },
   {
-    "standard": "AS 3959:2009",
-    "section": "5.5.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "Part F3",
+    "description": "A new Part has been inserted containing new and relocatedDeemed-to-SatisfyProvisionsrelatingtoroof and external wall weatherproofing."
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "4.2.1",
-    "description": "Emergency plans must be developed and implemented."
+    "standard": "NCC 2022",
+    "section": "F3O1",
+    "description": "AnewObjectivehasbeenincludedforroofandwall cladding"
   },
   {
-    "standard": "AS 4801:2001",
-    "section": "4.4.5",
-    "description": "Workplace hazards must be identified and assessed."
+    "standard": "NCC 2022",
+    "section": "F3F1",
+    "description": "AnewFunctionalStatementhasbeenincludedforroof and wall cladding"
   },
   {
-    "standard": "AS 1680.2.1:2008",
-    "section": "3.3.1",
-    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+    "standard": "NCC 2022",
+    "section": "F3D2",
+    "description": "A new sub-clause has been added to include external waterproofingmembranecomplyingwithF1D5.Cellulose cement corrugated sheeting has been removed from the clause."
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.4",
-    "description": "Fire protection systems must be tested and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "F3D5",
+    "description": "Anewprovisionhasbeenincludedtoprovideoptionsfor masonry, autoclaved aerated concrete and metal wall cladding complying with certain NCC referenced documents for satisfying external wall weatherproofing requirements."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.2.1",
-    "description": "Concrete mix design must comply with specified requirements."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.4.3",
-    "description": "Steel structures must be fabricated and erected according to specified standards."
+    "standard": "NCC 2022",
+    "section": "F4D5(c)",
+    "description": "Amended to clarify ambulant sanitary compartment must beprovidedforeachsex,andformaleambulantsanitary compartment to be separate from female ambulant sanitary compartment."
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.3.2",
-    "description": "Reinforcing steel must be properly handled and stored."
+    "standard": "NCC 2022",
+    "section": "F7P1",
+    "description": "Amended and now contains quantified level of performanceforsoundtransmissionthroughfloors."
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.5.1",
-    "description": "Glass must be properly installed to ensure safety."
+    "standard": "NCC 2022",
+    "section": "F7P2",
+    "description": "Amended and now contains quantified level of performanceforsoundtransmissionthroughwalls."
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.2.4",
-    "description": "Doorways and passages must be designed for accessibility."
+    "standard": "NCC 2022",
+    "section": "FP5.3",
+    "description": "ThisPerformanceRequirementinNCC2019Amdt1has beendeletedasaconsequenceofamendmentstoF7P1 and F7P2."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.3.2",
-    "description": "Plumbing systems must be installed to prevent backflow."
+    "standard": "NCC 2022",
+    "section": "F7P3",
+    "description": "Amended and now contains quantified level of performanceforsoundtransmissionthroughfloorsina residential care building."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.4.1",
-    "description": "Fire-resistance levels must be maintained during construction."
+    "standard": "NCC 2022",
+    "section": "F7P4",
+    "description": "Amended and now contains quantified level of performanceforsoundtransmissionthroughwallsina residential care building."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.2.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "FP5.6",
+    "description": "ThisPerformanceRequirementinNCC2019Amdt1has beendeletedasaconsequenceofamendmentstoF7P3 and F7P4."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.3.2",
-    "description": "Structural design actions must consider imposed loads."
+    "standard": "NCC 2022",
+    "section": "F8V1",
+    "description": "Amended to include new references to sections of the standardAIRAHDA07forinputassumptions,andnew failure criteria included based on a mould index of 3."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.4.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "F8D3",
+    "description": "Amendedtoincludevapourpermeancerequirementsfor several materials in climate zones 4 to 8."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.3.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "F8D4",
+    "description": "Amended to include additional exhaust requirements, includingductingofexhauststooutdoorair,exhaustrun- ontimersinsomeroomsandprovisionofmake-upairto some rooms."
   },
   {
-    "standard": "AS 1530.3:2018",
-    "section": "6.2.1",
-    "description": "Fire hazard properties of materials must be determined."
+    "standard": "NCC 2022",
+    "section": "F8D5",
+    "description": "Amended to require a ventilated roof space in climate zones6,7and8,withexceptionsforconcreteroofs,roofs madefromstructuralinsulatedpanelsandroofssubjectto Bushfire Attack Level FZ."
   },
   {
-    "standard": "AS 3959:2009",
-    "section": "5.5.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "Specification26",
+    "description": "Anewspecificationhasbeeninsertedandcontainsthe requirements of Table F1.7 of NCC 2019 Volume One Amendment 1."
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "4.2.1",
-    "description": "Emergency plans must be developed and implemented."
+    "standard": "NCC 2022",
+    "section": "S26C3",
+    "description": "Amended to require walls in shower areas to be waterprooftonotlessthan1800mmabovethefloor substrate."
   },
   {
-    "standard": "AS/NZS 4801:2001",
-    "section": "4.4.5",
-    "description": "Workplace hazards must be identified and assessed."
+    "standard": "NCC 2022",
+    "section": "S26C4andS26C5",
+    "description": "Sub-clause(1)hasbeenamendedtoincludefibre-cement sheet flooring."
   },
   {
-    "standard": "AS 1680.2.1:2008",
-    "section": "3.3.1",
-    "description": "Lighting levels for indoor workspaces must meet specified requirements."
+    "standard": "NCC 2022",
+    "section": "S26C6",
+    "description": "A new sub-clause (3) has been inserted to specify wet area requirements where a hand-held bidet spray is installedinaWC.Sub-clause(2)hasbeenamendedasa consequence of sub-clause (3)."
   },
   {
-    "standard": "AS 1851-2012",
-    "section": "5.2.4",
-    "description": "Fire protection systems must be tested and maintained regularly."
+    "standard": "NCC 2022",
+    "section": "S28C7",
+    "description": "Amendedandincludesnewformsoftimberandsteelwall construction."
   },
   {
-    "standard": "AS 3600:2018",
-    "section": "3.2.1",
-    "description": "Concrete mix design must comply with specified requirements."
+    "standard": "NCC 2022",
+    "section": "S28C10",
+    "description": "Amendedandincludesnewformoftimberfloor construction."
   },
   {
-    "standard": "AS 4100:2020",
-    "section": "2.4.3",
-    "description": "Steel structures must be fabricated and erected according to specified standards."
+    "standard": "NCC 2022",
+    "section": "G1D4",
+    "description": "Amended to require barriers to outdoor play spaces locatedmorethan2mabovethesurfacebeneathtobe"
   },
   {
-    "standard": "AS 4671:2001",
-    "section": "4.3.2",
-    "description": "Reinforcing steel must be properly handled and stored."
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
   },
   {
-    "standard": "AS 1288:2006",
-    "section": "3.5.1",
-    "description": "Glass must be properly installed to ensure safety."
+    "standard": "NCC 2022",
+    "section": "G2D3",
+    "description": "Consequentialamendmentsasaresultofchangestothe Part 12.4 of theABCB Housing Provisions as part of the Acceptable Construction Practice review project."
   },
   {
-    "standard": "AS 1428.1:2009",
-    "section": "4.2.4",
-    "description": "Doorways and passages must be designed for accessibility."
+    "standard": "NCC 2022",
+    "section": "G5O1(c)",
+    "description": "Amendedtoincludenewsub-clausetoreflectprotection of building occupants who may be unable to readily evacuate prior to a bushfire."
   },
   {
-    "standard": "AS/NZS 3500.1:2018",
-    "section": "3.3.2",
-    "description": "Plumbing systems must be installed to prevent backflow."
+    "standard": "NCC 2022",
+    "section": "G5F1",
+    "description": "Amendedtoincludeprotectionofbuildingoccupantswho may be unable to readily evacuate prior to a bushfire."
   },
   {
-    "standard": "AS 1530.4:2014",
-    "section": "5.4.1",
-    "description": "Fire-resistance levels must be maintained during construction."
+    "standard": "NCC 2022",
+    "section": "G5P1",
+    "description": "Amendedandnowcontainsquantifiedlevelof performance for bushfire resistance."
   },
   {
-    "standard": "AS 3959:2018",
-    "section": "4.2.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "G5P2",
+    "description": "NewPerformanceRequirementforClass9buildingshas been added."
   },
   {
-    "standard": "AS 1170.1:2002",
-    "section": "3.3.2",
-    "description": "Structural design actions must consider imposed loads."
+    "standard": "NCC 2022",
+    "section": "G5V1",
+    "description": "AlimitationboxhasbeeninsertedtospecifythatG5V1 does not apply to a Class 9 building."
   },
   {
-    "standard": "AS 1170.2:2011",
-    "section": "4.4.1",
-    "description": "Wind actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "G5D1",
+    "description": "Amendedonaccountoftheintroductionof G5P2."
   },
   {
-    "standard": "AS 1170.4:2007",
-    "section": "5.3.1",
-    "description": "Earthquake actions must be considered in structural design."
+    "standard": "NCC 2022",
+    "section": "G5D2",
+    "description": "AmendedtoincludeClass9buildingslocatedinanarea subject to BAL not exceeding 12.5."
   },
   {
-    "standard": "AS 1530.3:2018",
-    "section": "6.2.1",
-    "description": "Fire hazard properties of materials must be determined."
+    "standard": "NCC 2022",
+    "section": "G5D3",
+    "description": "Titleamendedtoincludereferencetoresidential buildings."
   },
   {
-    "standard": "AS 3959:2009",
-    "section": "5.5.1",
-    "description": "Building elements must be constructed to resist bushfire attack."
+    "standard": "NCC 2022",
+    "section": "G5D4",
+    "description": "Anewprovisionhasbeenaddedfortheprotectionof certain Class 9 buildings."
   },
   {
-    "standard": "AS 3745-2010",
-    "section": "4.2.1",
-    "description": "Emergency plans must be developed and implemented."
+    "standard": "NCC 2022",
+    "section": "Part G7",
+    "description": "AnewParthasbeeninsertedcontainingtheLivable housing design requirements. This includes a new Objective, Functional Statement, Performance Requirement and Deemed-to-Satisfy Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Specification43",
+    "description": "AnewSpecificationhasbeeninsertedasaconsequence of new bushfire protection provisions for certain Class 9 buildings."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "SectionI",
+    "description": "SectionHofNCC2019VolumeOneAmendment1has been amended to Section I as a result of structural changes to NCC Volume Two."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1O1",
+    "description": "AmendedtoexpandtheenergyefficiencyObjectivesof Section J."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1F1",
+    "description": "Amendedtoexpandtheenergyefficiencyfunctional requirements of Section J."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1P1",
+    "description": "AmendedtoclarifyrequirementsforaClass2buildingor a Class 4 part of a building."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1P2",
+    "description": "AnewPerformanceRequirementforthethermal performance of Class 2 sole-occupancy units."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1P3",
+    "description": "AnewPerformanceRequirementfortheenergyusageof Class 2 sole-occupancy units."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1P4",
+    "description": "AnewPerformanceRequirementforrenewableenergy and electric vehicle charging equipment."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V1(2)",
+    "description": "ExpandstheNABERSpathwaytoClass2common areas."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V1(3)",
+    "description": "Expandsthe NABERSpathway toClass 3 buildings."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V1(4)",
+    "description": "Expandsthe NABERSpathway toClass 6 buildings."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V2(1)",
+    "description": "AlignstheGreenStarpathwaywiththemostrecent Green Building Council of Australia modelling requirements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V2(2)",
+    "description": "AmendedtoremovereferencetoSpecification34asa required calculation method."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V4",
+    "description": "Expandstheexistingbuildingsealingverificationmethod by setting additional ventilation requirements for well- sealed buildings."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J1V5",
+    "description": "Anewverificationmethodforasole-occupancyunitof Class 2 building."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Part J2",
+    "description": "ExpandedsectionontheapplicationofSectionJ."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Part J3",
+    "description": "NewDeemed-to-SatisfyProvisionsJ3D1toJ3D15,for energy efficiency in a sole-occupancy unit of Class 2 building or a Class 4 part of a building."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J4D6",
+    "description": "Amendedtoclarifyhowtherequirementsapplytointernal envelope walls."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J4D7",
+    "description": "AmendedtosetadeemedR-Valueforconcreteslab-on- ground construction in most circumstances."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J9D3",
+    "description": "Amended to provide concession to individual sole- occupancyunitswithafloorareaof500m2orless."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J9D4",
+    "description": "Provisionstoprovideeaseofretrofitforelectricvehicle charging equipment."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "J9D5",
+    "description": "Provisionstoprovideeaseofretrofitforsolarphotovoltaic and battery storage equipment."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "S34C2(d)(ii)",
+    "description": "Amendedtoclarifyinfiltrationrateappliesthroughoutall zones."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "S34C3(4)(d)",
+    "description": "Amendedtoclarifybuildingforminclusionsforground floor and basements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "S34C3(6)(f)",
+    "description": "Amendedtoclarifyscopeofair-conditioningconfiguration and zoning requirements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "TableS34C3",
+    "description": "Amendstabletousethemostuptodategreenhousegas emissions factors."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "TableS35C2k",
+    "description": "Amendstheartificiallightingschedulefromweeklyto daily."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Specification36",
+    "description": "AmendedtoalignthetablesofR-Valuesformaterial, surface air film and airspace with current calculation methodologies."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "TableS39C2b",
+    "description": "Amendedtoincludeatablenoteonwallthickness."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Specification44",
+    "description": "AnewspecificationreferencedbyJ1P2hasbeeninserted that describes the calculation of heating, cooling and thermal load limits."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Specification45",
+    "description": "Anewspecificationhasbeeninsertedtoprovide modelling profiles for J1V5."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Schedule1",
+    "description": "Schedule1hasbeenamendedaspartoftheinitiativeto improvereadabilityoftheNCC.Schedule1–Definitions includesAbbreviations,SymbolsandGlossary.States& Territory Appendices (formerly located in Schedule 1) havebeenincorporatedintoSchedule3toSchedule11."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Acrylicconformalcoating(ACC)hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Acryliclatex(ACL) hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "AustralianInstituteofRefrigeration,Airconditioningand Heating (AIRAH) has been added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "AmericanNationalStandardsInstitute(ANSI)hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "American Society of Heating, Refrigerating and Air ConditioningEngineers(ASHRAE)hasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "NationalStandardofCanada(CAN)hasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "CharteredInstitutionofBuildingServicesEngineer (CIBSE) has been added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Flamezone(FZ)hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "GreenhouseandEnergyMinimumStandards(GEMS) has been added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Hotdipgalvanising(HDG)hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Inorganiczincsilicate(IZS)hasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "NATAhasbeenamendedtoincludereferenceto Australia."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "NationalSanitationFoundation(NSF)hasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Abbreviations",
+    "description": "Polyurethane(PUR)hasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "µg/N.shasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "f’c has been added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "f’y has been added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "Ghasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "N/mhasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "Qhasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Symbols",
+    "description": "ULShasbeenadded."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Abovegroundrainwatertank’,hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Annualexceedanceprobability’,hasbeen added as a consequence of amendments to Part 7.4 Gutters and downpipes of theABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Assumedcoolingthermostatsetpoint’ has been added as a consequence of quantification in J1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Average recurrence interval’, has been deleted as a consequence of amendments to Part 7.4 GuttersanddownpipesoftheABCBHousingProvisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Bond breaker’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Buildingcomplexitycriteria’,hasbeen added."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefined term, ‘Buried rainwater tank’, has been added asaconsequenceofamendmentstoSpecification41of Volume Three."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Coolingdegreehours’hasbeenaddedas a consequence of quantification in J1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Daily outdoor temperature range’ has beenaddedasaconsequenceofquantificationinJ1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Dehumidificationgramhours’,hasbeen added as a consequence of quantification in J1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Designbushfire’,hasbeenaddedasa consequence of amendments to Part G5."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "The defined term, ‘Domestic services’, has been amendedtoincludeon-siterenewableenergyequipment as a result of quantification in J1P3 and H6P2."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Drainageflange’,hasbeenaddedasa consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefined term, ‘Drainage riser’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Efficacy’, has been added as a consequence of including quantified Performance RequirementH3P2forautomaticwarningforoccupants."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Energyvalue’,hasbeenaddedasa consequence of quantification in J1P3 and H6P2."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Engaged pier’, has been added as a consequenceofamendmentstoSection5oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Fireactions’,hasbeenaddedasa consequence of amendments to Part G5."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Flashing’,hasbeenamendedtoclarify perimeter and vertical flashings as a consequence of amendments to Part 10.2 of the ABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Floorarea’,forVolumeOne,hasbeen amended on account of new defined term ‘Volume’."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Floor waste’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Glazing’,hasbeenamendedasa consequenceoftheupdatestotheenergyefficiency Deemed-to-Satisfy provisions for Class 2 buildings."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Heatingdegreehours’,hasbeenadded as a consequence of quantification in J1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Hob’,hasbeenaddedasaconsequence of amendments to Part 10.2 of the ABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term ‘Irrigation system’, has been added as a consequenceofamendmentstoS41C2inVolumeThree."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Lateralsupport’,hasbeenaddedasa consequence of amendments to Part 5.3 of theABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Mainwaterheater’hasbeenaddedasa consequence of including new whole-of-home energy efficiency requirements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Mainspaceconditioning’hasbeenadded as a consequence of including new whole-of-homeenergy efficiency requirements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Maximumretainedwaterlevel’,hasbeen added as a consequence of amendments to Part 10.2 of the ABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Membrane’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘NABERSEnergyforOffices’hasbeen amended to be ‘NABERS Energy’ to reflect its use for multiple building classifications."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Performance-baseddesignbrief’has been amended for clarity."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Pointofconnection’,hasbeen amended for clarity."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Preformed shower base’, has been addedasaconsequenceofamendmentstoPart10.2of the ABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Primaryinsulationlayer’,hasbeenadded as a consequence of amendments to condensation management provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "The defined term, ‘Rainwater harvesting system’, has been amended to ‘Rainwater service’ and ‘Rainwater storage’asaconsequenceofamendmentstoPartB6of Volume Three."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "The defined term, ‘Reference building’, has been amendedtoremovereferencetoThermalcomfortlevels and as a consequence of the introduction of J1V5."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Reliability’, has been added as a consequence of including quantified Performance Requirementsforautomaticwarningforoccupants."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Screed’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘Showerarea’,hasbeenamendedto clarify enclosed and unenclosed shower areas as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefined term, ‘Shower screen’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Thermalenergyload’,hasbeenaddedas a consequence of quantification in J1P2 and H6P1."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "The defined term ‘Total R-Value’ in theABCB Housing ProvisionshasbeenamendedtoalignwithVolumeOne."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Thedefinedterm,‘TotalSystemU-Value’,intheABCB Housing Provisions has been amended to align with Volume One."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term ‘Unprotected water service’, has been addedasaconsequenceofintroducingnewprovisionfor unprotected water service – B5D5 of Volume Three."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Vapourpermeance’,hasbeenaddedasa consequence of amendments to the condensation management provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Volume’, has been added to clarify the volumespacewithrespecttoabuilding,firecompartment and atrium."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Waterproofingsystem’,hasbeenadded as a consequence of amendments to Part 10.2 of the ABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "A defined term, ‘Water stop’, has been added as a consequenceofamendmentstoPart10.2oftheABCB Housing Provisions."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Weightedaverage’,hasbeenaddedasa consequence of amendments to A5G4."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Glossary",
+    "description": "Adefinedterm,‘Wettedsurfacearea’,hasbeenaddedto provide clarification to the defined term ‘Weighted average’."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1170.2",
+    "description": "The2021editionofAS/NZS1170Part2‘Structuraldesign actions — Wind actions’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1288",
+    "description": "The2021editionofAS1288‘Glassinbuildings— Selection and installation’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1397",
+    "description": "The2021editionofAS1397‘Continuoushot-dipmetallic coated steel sheet and strip — Coatings of zinc and zinc alloyed with aluminium and magnesium’ has been referenced. A note has been included to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS1530Parts1to 4",
+    "description": "ThenotestoAS1530Parts1to4havebeendeleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1530.8.1",
+    "description": "The 2018 edition of AS 1530 Part 8.1 ‘Methods for fire tests on building materials, components and structures — Testsonelementsofconstructionforbuildingsexposedto simulated bushfire attack — Radiant heat and small flaming sources’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1546.1",
+    "description": "The 2008 edition of AS/NZS 1546 Part 1 ‘On-site domesticwastewatertreatmentunits—Septictanks’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1546.2",
+    "description": "The 2008 edition ofAS/NZS 1546 Part 2 ‘On-site domesticwastewatertreatmentunits—Waterless composting toilets’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1546.3",
+    "description": "Amdt1ofthe2017editionofAS1546Part3‘On-site domestic wastewater treatment units — Secondary treatmentsystems(incorporatingamendment1)’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1546.4",
+    "description": "The2016editionofAS1546Part4‘On-sitedomestic wastewater treatment units — Domestic greywater treatment systems’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1547",
+    "description": "The2012editionofAS/NZS1547‘On-sitedomestic wastewater management’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1562.2",
+    "description": "The 1999 edition of AS/NZS 1562 Part 2 ‘Design and installationofsheetroofandwallcladding—Corrugated fibre-reinforced cement’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1562.3",
+    "description": "The 2006 edition of AS 1562 Part 3 ‘Design and installationofsheetroofandwallcladding—Plastic’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1670.1",
+    "description": "Amdt1ofthe2018editionAS1670Part1‘Firedetection, warning,controlandintercomsystems—Systemdesign, installation and commissioning — Fire (incorporating amendment 1)’ has been referenced. Notes to AS 1670 have been amended to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1670.3",
+    "description": "Amdt1ofthe2018editionAS1670Part3‘Firedetection, warning, control and intercom systems — System design, installation and commissioning — Fire alarm monitoring (incorporatingamendment1)’hasbeenreferenced.Notes to AS 1670 have been amended to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1670.4",
+    "description": "Amdt1ofthe2018editionAS1670Part4‘Firedetection, warning,controlandintercomsystems—Systemdesign, installation and commissioning — Emergency warning and intercom systems (incorporating amendment 1)’ has been referenced. Notes toAS 1670 have been amended to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1684.2",
+    "description": "The2021editionofAS1684Part2‘Residentialtimber- framed construction — Non-cyclonic areas’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1684.3",
+    "description": "The2021editionofAS1684Part3‘Residentialtimber- framed construction —Cyclonic areas’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1720.4",
+    "description": "The 2019 edition of AS/NZS 1720 Part 4 ‘Timber structures—Fireresistanceoftimberelements’hasbeen referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 1720.5",
+    "description": "Amdt 1 of the 2015 edition ofAS 1720 Part 5 ‘Timber structures—Nailplatedtimberrooftrusses(incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 1859.4",
+    "description": "ThenotetoAS/NZS1859.4hasbeen deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2118.1",
+    "description": "Amdt2ofthe2017editionofAS2118Part1‘Automatic firesprinklersystems—Generalsystems(incorporating amendments 1 and 2)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2118.4",
+    "description": "The 2012 edition of AS 2118 Part 4 ‘Automatic fire sprinkler systems — Sprinkler protection for accommodationbuildingsnotexceedingfourstoreysin height’."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2118.5",
+    "description": "The 2008 edition of AS 2118 Part 5 ‘Automatic fire sprinklersystems—Homefiresprinklersystems’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2118.6",
+    "description": "The 2012 edition of AS 2118 Part 6 ‘Automatic fire sprinklersystems—Combinedsprinklerandhydrant systems in multistorey buildings.’"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 2293.1",
+    "description": "Amdt 1 of the 2018 edition of AS/NZS 2293 Part 1 ‘Emergencylightingandexitsignsforbuildings—System design, installation and operation (incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2312.1",
+    "description": "The 2014 edition of AS 2312 Part 1 ‘Guide to the protection of structural steel against atmospheric corrosionbytheuseofprotectivecoatings—Paint coatings’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 2312.2",
+    "description": "The2014editionofAS/NZS2312Part2‘Guidetothe protection of structural steel against atmospheric corrosion by the use of protective coatings — Hot dip galvanizing’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 2327",
+    "description": "Amdt1ofthe2017editionofAS/NZS2327‘Composite structures — composite steel-concrete construction in buildings (incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2419.1",
+    "description": "The2021editionofAS2419Part1‘Firehydrant installations — System design, installation and commissioning’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2699.1",
+    "description": "The2020editionofAS2699Part1‘Built-incomponents for masonry construction — Wall ties’ has been referenced. A note has been included to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 2699.3",
+    "description": "The 2020 edition of AS 2699 Part 3 ‘Built-in components for masonry construction — Lintels and shelf angles (durabilityrequirements)’hasbeenreferenced.Anotehas been included to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 3500.0",
+    "description": "The 2021 edition of AS 3500 Part 0 ‘Plumbing and drainage—Glossaryofterms’hasbeenreferenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 3500.1",
+    "description": "The2021editionofAS3500Part1‘Plumbingand drainage — Water services’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 3500.2",
+    "description": "Amdt1ofthe2021editionofAS3500Part2‘Plumbing and drainage — Sanitary plumbing and drainage (incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 3500.3",
+    "description": "The 2021 edition of AS 3500 Part 3 ‘Plumbing and drainage—Stormwaterdrainage’hasbeenreferenced.A note has been included to outline transitional arrangements."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 3500.4",
+    "description": "The 2021 edition of AS 3500 Part 4 ‘Plumbing and drainage—Heatedwaterservices’hasbeenreferenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 3600",
+    "description": "Amdt 2 of the 2018 edition of AS 3600 ‘Concrete structures(incorporatingamendments1and2)’hasbeen referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 3740",
+    "description": "The2021editionofAS3740‘Waterproofingofdomestic wet areas’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 3959",
+    "description": "Amdts 1 and 2 of the 2018 edition of AS 3959 ‘Constructionofbuildingsinbushfire-proneareas (incorporating amendments 1 and 2)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4055",
+    "description": "The2021editionofAS4055‘Windloadsforhousing’has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4072.1",
+    "description": "ThenotetoAS4072Part1hasbeendeleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4100",
+    "description": "The2020editionofAS4100‘Steelstructures’hasbeen referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4200.1",
+    "description": "Amdt1ofthe2017editionofAS4200Part1‘Pliable building membranes and underlays — Materials (incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4200.2",
+    "description": "Amdts 1 and 2 of the 2017 edition ofAS 4200 Part 2 ‘Pliablebuildingmembranesandunderlays—Installation (incorporating amendments 1 and 2)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4234",
+    "description": "The2021editionofAS/NZS4234‘Heatedwater systems"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4254.1",
+    "description": "The 2021 edition of AS 4254 Part 1 ‘Ductwork for air- handlingsystemsinbuildings—Flexibleduct’hasbeen referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4256.1",
+    "description": "The1994editionofAS/NZS4256Part1‘Plasticroofand wall cladding materials — General requirements’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4256.2",
+    "description": "The 1994 edition ofAS/NZS 4256 Part 2 ‘Plastic roof and wallcladdingmaterials—Unplasticizedpolyvinylchloride (uPVC) building sheets’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4256.3",
+    "description": "The 1994 edition ofAS/NZS 4256 Part 3 ‘Plastic roof and wallcladdingmaterials—Glassfibrereinforcedpolyester (GRP)’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4256.5",
+    "description": "The1996editionofAS/NZS4256Part5‘Plasticroofand wall cladding materials — Polycarbonate’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 4773.2",
+    "description": "Amdt1ofthe2015editionofAS4773Part2‘Masonryin small buildings — Construction’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 4858",
+    "description": "The2004editionofAS/NZS4858‘Wetareamembranes’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 5146.3",
+    "description": "The 2018 edition of AS 5146 Part 3 ‘Reinforced AutoclavedAeratedConcrete—Construction’hasbeen referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS 5216",
+    "description": "The2021editionofAS5216‘Designofpost-installedand cast-in fastenings in concrete’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AS/NZS 5601.1",
+    "description": "The2013editionofAS/NZS5601Part1‘Gasinstallations"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "AIRAH-DA07",
+    "description": "The 2021 edition of AIRAH-DA07 ‘Criteria for moisture controldesignanalysisinbuildings’hasbeenreferenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ASTM E903",
+    "description": "The 2012 edition of ASTM E903 ‘Standard Test Method forSolarAbsorptance,Reflectance,andTransmittanceof Materials Using Integrating Spheres’ has been deleted."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ASTM E96",
+    "description": "The2016editionofASTME96‘StandardTestMethods for Water Vapor Transmission of Materials’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ABCB",
+    "description": "The2022versionoftheABCB‘FireSafetyVerification Method’ Standard has been referenced. As a consequence, the FSVM is deleted as a standalone schedule."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ABCB",
+    "description": "The 2012 edition of AS 2118 Part 6 ‘Automatic fire sprinklersystems—Combinedsprinklerandhydrant systems in multistorey buildings.’"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ABCB",
+    "description": "The2022versionoftheABCB‘LivableHousingDesign’ Standard has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ABCB",
+    "description": "The 2022 version of theABCB ‘Standard for NatHERS HeatingandCoolingLoadLimits’hasbeenreferenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "ABCB",
+    "description": "The2022versionoftheABCB‘StandardforWhole-of- home Efficiency Factors’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "FPAA101D",
+    "description": "The 2021 edition of FPAA101D ‘Automatic Fire Sprinkler SystemDesignandInstallation—DrinkingWaterSupply’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "Reference",
+    "description": "ChangesandCommentary"
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "FPAA101H",
+    "description": "Amdt1ofthe2018editionofFPAA101H‘AutomaticFire Sprinkler System Design and Installation — Hydrant Water Supply (incorporating amendment 1)’ has been referenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "NASHStandard",
+    "description": "The 2021 edition of NASH Standard ‘Steel Framed ConstructioninBushfireAreas’hasbeenreferenced."
+  },
+  {
+    "standard": "NCC 2022",
+    "section": "NSF/ANSI/CAN372",
+    "description": "The2020editionofNSF/ANS/CAN372‘DrinkingWater System Components — Lead Content’ has been referenced."
   }
 ]

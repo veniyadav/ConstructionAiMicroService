@@ -1,13 +1,17 @@
 from flask import Flask, request, jsonify
-from Form_LLM import get_previous_forms,generate_autofill,generate_compliance_report,RFI_Suggestion,speechtotext,generate_project_insights,ImageProcessing
+from Form_LLM import generate_autofill,generate_compliance_report,RFI_Suggestion,speechtotext,generate_project_insights,ImageProcessing
 import os
+from utiles.utils import get_previous_forms
 from werkzeug.utils import secure_filename
+import requests
+import json
+
+
 app = Flask(__name__)
 
 @app.route("/autofill", methods=["POST"])
 def autofill():
     data = request.json
-    # user_id = data.get("user_id")
     form_type = data.get("form_type")
     url="https://hrb5wx2v-8000.inc1.devtunnels.ms/api/data"
 
@@ -25,11 +29,10 @@ def autofill():
 @app.route("/complinces_standards", methods= ["POST"])
 def compliences():
     data=request.json
-    # user_id=data.get("user_id")
     site_report_text=data.get("report_text")
 
     if not site_report_text:
-        return jsonify({"error" : "user_id and report_text required"})
+        return jsonify({"error" : "report_text required"})
     standard_response=generate_compliance_report(site_report_text)
 
     return jsonify({
@@ -41,10 +44,7 @@ def compliences():
 @app.route("/rfi_suggestions", methods= ["POST"])
 def rfi():
     data=request.json
-    # user_id=data.get("user_id")
     rfi_question=data.get("question")
-    # api_url=data.get("url")
-
     if not rfi_question:
         return jsonify({"error" : "report_text required"})
     
@@ -74,18 +74,17 @@ def speech_to_text_api():
     audio_file.save(file_path)
 
     try:
-        # Call your function
-        transcript = speechtotext(file_path)
-        return jsonify({"transcription": transcript})
+        transcript,summery = speechtotext(file_path)
+        return jsonify({"transcription": transcript, "summery":summery})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     finally:
-        # Clean up file
+        # Clean up file after processing
         if os.path.exists(file_path):
             os.remove(file_path)
 
-
-@app.route("/project_insights", methods=["POST"])
+#projects part
+@app.route("/chatbot", methods=["POST"])
 def project_insights():
     data = request.json
     user_query = data.get("question")
@@ -99,6 +98,41 @@ def project_insights():
         return jsonify({"insights": insights})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+
+
+
+@app.route("/fetch_data", methods=["POST"])
+def fetch_data():
+    data = request.json
+    user_id = data.get("user_id")
+
+    if not user_id :
+        return jsonify({"error": "user_id required"}), 400
+
+    url = f"https://hrb5wx2v-8000.inc1.devtunnels.ms/api/complete/{user_id}"
+
+    try:
+        # Send GET request
+        response = requests.get(url)
+
+        # Check if the request was successful
+        if response.status_code == 200:
+            data = response.json()  # Convert response to JSON
+            with open("Database.json", "w", encoding='utf-8') as f:
+                json.dump(data, f, indent=4)
+
+            print("Data successfully saved to Database.json")
+            return jsonify({"message": "Data successfully saved"}), 200
+        else:
+            # Handle case when the request fails
+            print(f"Request failed with status code: {response.status_code}")
+            return jsonify({"error": f"Request failed with status code: {response.status_code}"}), 500
+
+    except Exception as e:
+        print(f"Error occurred: {str(e)}")
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 500
+
 
 
 # --- Image Processing Route ---
