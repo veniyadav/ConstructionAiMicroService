@@ -5,11 +5,16 @@ from utiles.utils import get_previous_forms
 from werkzeug.utils import secure_filename
 import requests
 import json
+from flask_cors import CORS
+from flask_cors import cross_origin
 
 
 app = Flask(__name__)
 
+CORS(app, resources={r"/*": {"origins": "*"}})
+
 @app.route("/autofill", methods=["POST"])
+@cross_origin()
 def autofill():
     data = request.json
     form_type = data.get("form_type")
@@ -27,6 +32,7 @@ def autofill():
     })
 
 @app.route("/complinces_standards", methods= ["POST"])
+@cross_origin()
 def compliences():
     data=request.json
     site_report_text=data.get("report_text")
@@ -42,6 +48,7 @@ def compliences():
 
 #rfi suggestion ##
 @app.route("/rfi_suggestions", methods= ["POST"])
+@cross_origin()
 def rfi():
     data=request.json
     rfi_question=data.get("question")
@@ -57,6 +64,7 @@ def rfi():
 
 
 @app.route("/speechtotext", methods=["POST"])
+@cross_origin()
 def speech_to_text_api():
     if "audio" not in request.files:
         return jsonify({"error": "No audio file uploaded"}), 400
@@ -85,6 +93,7 @@ def speech_to_text_api():
 
 #projects part
 @app.route("/chatbot", methods=["POST"])
+@cross_origin()
 def project_insights():
     data = request.json
     user_query = data.get("question")
@@ -103,6 +112,7 @@ def project_insights():
 
 
 @app.route("/fetch_data", methods=["POST"])
+@cross_origin()
 def fetch_data():
     data = request.json
     user_id = data.get("user_id")
@@ -137,6 +147,7 @@ def fetch_data():
 
 # --- Image Processing Route ---
 @app.route("/analyze_image", methods=["POST"])
+@cross_origin()
 def analyze_image():
     if "image" not in request.files:
         return jsonify({"error": "No image file uploaded"}), 400
