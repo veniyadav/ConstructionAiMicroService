@@ -143,7 +143,7 @@ def fetch_data():
         print(f"Error occurred: {str(e)}")
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
 
-
+# this is the demo commit time
 
 # --- Image Processing Route ---
 @app.route("/analyze_image", methods=["POST"])
