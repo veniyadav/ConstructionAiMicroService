@@ -18,7 +18,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 def autofill():
     data = request.json
     form_type = data.get("form_type")
-    url="https://hrb5wx2v-8000.inc1.devtunnels.ms/api/data"
+    url="https://construction-backend-production-688f.up.railway.app/api/data"
 
     if not form_type :
         return jsonify({"error": "form_type required"}), 400
@@ -120,7 +120,7 @@ def fetch_data():
     if not user_id :
         return jsonify({"error": "user_id required"}), 400
 
-    url = f"https://hrb5wx2v-8000.inc1.devtunnels.ms/api/complete/{user_id}"
+    url = f"https://construction-backend-production-688f.up.railway.app/api/complete/{user_id}"
 
     try:
         # Send GET request

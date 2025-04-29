@@ -133,7 +133,7 @@ def generate_compliance_report(site_report_text):
 ##RFI ###
 
 def RFI_Suggestion(user_rfi_question):  #api url when extract data 
-    api="https://hrb5wx2v-8000.inc1.devtunnels.ms/api/rfi"
+    api="https://construction-backend-production-688f.up.railway.app/api/rfi"
     rfi_entries = fetch_rfi_data_from_api(api_url=api)
     history = format_rfi_history(rfi_entries)
 
