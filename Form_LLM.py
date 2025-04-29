@@ -211,6 +211,7 @@ def generate_project_insights(user_query, user_id):
     2. If no relevant information is found in the database, search the web and provide a direct, concise, and accurate answer.
     3. Do **not** provide any greetings, extra context, or introductory information. Just answer the question directly.
     4. **Never say no**. If data is not available in the database, proceed to search the internet for the most relevant information and provide it.
+    5. Only answer precise and short don't add more irrelevent information 
 
     The user's question is: "{user_query}"
 
