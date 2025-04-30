@@ -81,15 +81,22 @@ form_schemas = {
                 "__v": 0
             }""",
 
-    "RFI": """{
-  "subject": "",
-  "priority": "",
-  "due_date": "",
-  "assignee": "",
-  "department": "",
-  "description": "",
-  "attachments": []
-}"""
+    "rfis":     """{
+                    "_id": "680c871cfa5df5b923b25ea5",
+                    "subject": "Clarification on Electrical Layout",
+                    "priority": "Low",
+                    "due_date": "2025-05-20T00:00:00.000Z",
+                    "assignee": "680773d1649fdcf2e32019a9",
+                    "department": "Engineering",
+                    "description": "Need clarification on electrical layout for second floor",
+                    "status": "pending",
+                    "image": [
+                        "https://res.cloudinary.com/dkqcqrrbp/image/upload/v1745651484/rfis/cm9qjtryzjv4bfvtzifb.pdf"
+                    ],
+                    "createdAt": "2025-04-26T07:11:24.782Z",
+                    "updatedAt": "2025-04-26T07:11:24.782Z",
+                    "__v": 0
+                }"""
 }
 
 
