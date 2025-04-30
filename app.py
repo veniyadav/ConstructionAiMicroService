@@ -18,7 +18,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 def autofill():
     data = request.json
     form_type = data.get("form_type")
-    url="https://construction-backend-production-688f.up.railway.app/api/data"
+    url="https://construction-backend-production-d7ac.up.railway.app/api/data"
 
     if not form_type :
         return jsonify({"error": "form_type required"}), 400

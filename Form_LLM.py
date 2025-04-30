@@ -24,6 +24,8 @@ def generate_autofill(form_type, previous_forms):
         forms = data.get('incidents', [])
     elif form_type == 'itps':
         forms = data.get('itps', [])
+    elif form_type == 'rfis':
+        forms = data.get('rfis', [])
     else:
         return f"Unsupported form type: {form_type}"
 
