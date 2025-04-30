@@ -120,7 +120,7 @@ def fetch_data():
     if not user_id :
         return jsonify({"error": "user_id required"}), 400
 
-    url = f"https://construction-backend-production-688f.up.railway.app/api/complete/{user_id}"
+    url = f"https://construction-backend-production-d7ac.up.railway.app/api/complete/{user_id}"
 
     try:
         # Send GET request
