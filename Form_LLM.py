@@ -247,7 +247,7 @@ def ImageProcessing(imagepath):
     # Getting the base64 string
     base64_image = encode_image(image_path=imagepath)
 
-    client = Groq(api_key="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")
+    client = Groq(api_key="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")
 
     chat_completion = client.chat.completions.create(
         messages=[
