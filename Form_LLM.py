@@ -7,7 +7,10 @@ from utiles.globalllm import GroqLLM
 import json 
 from form_schemas import form_schemas , compliance_json_template # your schema map
 from utiles.utils import load_retriever_from_faiss ,fetch_rfi_data_from_api,format_rfi_history,encode_image,load_retriever_from_faiss_projects #getProject,formatProjects
-API_KEY = "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"
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv("MY_API_KEY")
 client = Groq(api_key=API_KEY)
 
 groq_llm = GroqLLM(model="llama-3.1-8b-instant", api_key=API_KEY,temperature=0.4)
